@@ -1,0 +1,108 @@
+@media (width <= 1260px) {
+  .container_card {
+    gap: 1rem;
+  }
+
+  .container_produtos h2 {
+    font-size: 32px;
+  }
+
+  .container_formulario h2 {
+    font-size: 32px;
+  }
+
+  .container_form {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (width <= 1044px) {
+  .container_produtos h2 {
+    font-size: 30px;
+  }
+
+  .container_card {
+    gap: 1rem;
+  }
+
+  .container_formulario h2 {
+    font-size: 30px;
+  }
+
+  .container_form {
+    width: 400px;
+    height: 500px;
+  }
+}
+
+@media (width <= 864px) {
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .container_formulario {
+    gap: 1rem;
+  }
+
+  .container_formulario h2 {
+    font-size: 29px;
+  }
+
+  .container_produtos {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .container_produtos h2 {
+    font-size: 29px;
+    text-align: center;
+  }
+}
+
+@media (width <= 430px) {
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .container_produtos {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .container_produtos h2 {
+    font-size: 25px;
+    align-items: center;
+  }
+
+  .container_formulario {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+  }
+
+  .container_formulario h2 {
+    font-size: 25px;
+  }
+
+  .container_form {
+    display: flex;
+    box-sizing: border-box;
+    width: 360px;
+    height: 360px;
+    background-size: 100px;
+    padding: 1rem;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  #button {
+    font-size: 12px;
+  }
+}

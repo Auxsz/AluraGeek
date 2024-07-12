@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="container_cabecalho">
+            <img src="./assets/corações.png" alt="corações">
+            <p class="cabecalho_texto">AluraGeek</p>
+    </header>
+    
+    <main class="container_geral">
+        <section class="container_produtos" >
+            <h2 class="titulo_cards">Produtos:</h2>
+            <div class="card-container">
+                <div class="card-content" data-product></div>
+            </div>
+        </section>
+        
+        <section class="container_formulario">
+            <h2>Carrinho:</h2>
+            <form class="container_form" data-form >
+                <span class="container_texto">Nome</span>
+                <input data-name type="text"  name="name" id="name_product" placeholder="Nome" minlength="4" required>
+                <span class="container_texto">Preço</span>
+                <input data-price type="number" name="price" id="price_product" placeholder="Preço" required >
+                <span class="container_texto">URL</span>
+                <input type="url" data-imagem  name="image"  id="image_product" placeholder="URL" required >
+                <div class="container_button">
+                    <button type="submit" class="button_submit button" >Salvar</button>
+                    <button type="reset" class="button_reset button" >Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container_footer">
+            <img src="./assets/corações.png" alt="corações">
+            <p>Alura Latam 2024</p>
+        </div>
+        
+    </footer>
+   
+    <script src="./js/mostraProducts.js" type="module"></script>
+    <script src="./js/criarCard.js" type="module"></script>
+</body>
+</html>
